@@ -4,7 +4,8 @@ wmi
 wmi.go implements a wrapper to Windows Management Instrumentation API. Currently it implements the 
 bits to be able to run WMI queries.
 
-The wrapper is not based on IDispatch which makes it somewhat more performant that automation-based model.
+The wrapper is not based on IDispatch which makes it somewhat more performant than automation-based access.
+The wrapper itself is based on the awesome [com-and-go](https://code.google.com/p/com-and-go) package.
 
 ## Example
 This is a barebones application to query Windows services:

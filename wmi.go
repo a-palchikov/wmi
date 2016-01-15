@@ -1,7 +1,7 @@
 package wmi
 
 import (
-	"code.google.com/p/com-and-go/v2"
+	"github.com/tianlin/com-and-go/v2"
 	"unsafe"
 )
 

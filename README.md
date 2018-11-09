@@ -1,7 +1,7 @@
 wmi
 ===
 
-wmi.go implements a wrapper to Windows Management Instrumentation API. Currently it implements the 
+wmi.go implements a wrapper to Windows Management Instrumentation API. Currently it implements the
 bits to be able to run WMI queries.
 
 The wrapper is not based on IDispatch which makes it somewhat more performant than automation-based access.
@@ -13,7 +13,7 @@ This is a barebones application to query Windows services:
 package main
 
 import (
-	"code.google.com/p/com-and-go/v2"
+	"github.com/tianlin/com-and-go/v2"
 	"github.com/a-palchikov/wmi"
 	"fmt"
 	"log"
